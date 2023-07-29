@@ -94,11 +94,15 @@ class GameHandler:
         return False # Game continues otherwise
 
     def game_over(self):
-        lines = ["Game Over", "Press R to restart", "Press Q to quit"]
+        lines = ["Game Over", "Press R to restart", "Press Q to quit", "Thanks for playing! :)"]
         next_line = self.screen.get_height() // 2 - len(lines) * 10  # Adjust this value as needed
 
-        for line in lines:
-            text = self.text.ending_text(line, 30)  # 30 is the font size
+        for index, line in enumerate(lines):
+            if index == 0:
+                size = 50
+            else:
+                size = 30
+            text = self.text.ending_text(line, size)  # 30 is the font size
             rect = text.get_rect()
             rect.center = (self.screen.get_width() // 2, next_line)
             self.screen.blit(text, rect)
