@@ -5,15 +5,15 @@ This is a little game of snake written in Python. I wanted to make a small, self
 Also, the game itself is kind of fun.
 
 ## Getting Started
-The game should be able to run through a terminal window, and theoretically should automatically run if opened from the containing folder. 
-The "snake" (represented by green blocks) will automatically start moving upon the game running.
+* The game should be able to run through a terminal window, and theoretically should automatically run if opened from the containing folder. 
+* The "snake" (represented by green blocks) will automatically start moving upon the game running.
 
 How to play:
 Navigate the snake "head" to "eat" the red "pellets" to score points (maybe excessive quoting here, but I'm not going to pretend this game is any more visually complicated than solid blocks of color, haha). Game over will occur if you navigate the snake "head" so that it runs into any part of it's body. Running into a wall will halt movement.
 
 Controls:
-Movement = Arrow keys
-If you trigger game over, restart with "R" or quit with "Q"
+* Movement = Arrow keys
+* If you trigger game over, restart with "R" or quit with "Q"
 
 
 ### Dependencies
@@ -32,8 +32,6 @@ If you trigger game over, restart with "R" or quit with "Q"
     * Initial and probably only release
 
 ## License
-
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
