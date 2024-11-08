@@ -1,6 +1,6 @@
 # Just a little game of snake
 
-This is a little game of snake written in Python. I wanted to make a small, self-contained program to practice common conventions and scripting across multiple files. This project originated when I was playing around with GTP Engineer, and wanted to test the prompt results and polish up my process for git commits. The original results were very bare-bones and did not function, but gave me an opportunity to improve my review and debug skills, as I was able to treat the original result as if it were code written by a different person. The code has been significantly overhauled and I consider it to be written by myself, not AI-generated code. I got to learn the library pygame and interact with graphic (multimedia?) elements! Overall, this was an interesting project, taking pre-written code and identifying bugs, cleaning up repetition, reworking logic, etc. 
+This is a little game of snake written in Python. I wanted to make a small, self-contained program to practice common conventions and scripting across multiple files. This project originated when I was playing around with GPT Engineer, and wanted to test the prompt results and polish up my process for git commits. The original results were very bare-bones and did not function, but gave me an opportunity to improve my review and debug skills, as I was able to treat the original result as if it were code written by a different person. The code has been significantly overhauled and I consider it to be written by myself, not AI-generated code. I got to learn the library pygame and interact with graphics elements! Overall, this was an interesting project, taking pre-written code and identifying bugs, cleaning up repetition, reworking logic, etc. 
 
 Also, the game itself is kind of fun.
 
@@ -44,4 +44,4 @@ This work is licensed under a
 
 ## Acknowledgments
 
-* [gtp-engineer](https://github.com/AntonOsika/gpt-engineer)
+* [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
